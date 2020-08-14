@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="./css/loging.css">
+  </head>
+  <body>
+    <body class="fixed-nav sticky-footer bg-light" id="page-top">
+        <div class="row">
+            <section class="section">
+              <header>
+                <h3>Member loging</h3>
+                <h4>Please fill your information bellow</h4>
+              </header>
+              <main>
+                <form>
+                  <div class="form-item box-item">
+                    <input type="text" name="name" placeholder="User Name" data-required>
+                    <small class="errorReq"><i class="fa fa-asterisk" aria-hidden="true"></i> required field</small>
+                  </div>
+                  <div class="form-item box-item">
+                    <input type="password" name="password" placeholder="password" data-email data-required>
+                    <small class="errorReq"><i class="fa fa-asterisk" aria-hidden="true"></i> required field</small>
+                    <small class="errorEmail"><i class="fa fa-asterisk" aria-hidden="true"></i> email is not valid</small>
+                  </div>
+                  <div class="form-item">
+                    <span id="submit" class="submit">Submit</span>
+                    <span id="submit" class="submit"><a href="./index.html" style="color: white;">Back to Main</a></span>
+                  </div>
+                </form>
+                  <div class="form-item box-item">
+                    <small class="errorOnce"><i class="fa fa-asterisk" aria-hidden="true"></i> choose at least one</small>
+                  </div>
+                </form>
+              </main>
+              <footer>
+                <p>New to Here? <a href="./Registration.html">Register Now</a></p>
+              </footer>
+              <i class="wave"></i>
+            </section>
+          </div>
+
+          <script src="Js/Registration.js"></script>
+  </body>
+  </html>
+  
